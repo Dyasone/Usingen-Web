@@ -34,7 +34,7 @@ p {
     border-radius: 0.33rem;
     color: white;   
 }
-#more, #more1, #more2, #more3  {display: none;}
+#more, #more1, #more2, #more3  {display: none;} /*hides the text of the read more*/
 button {
         background-color: transparent;
         border:none;
