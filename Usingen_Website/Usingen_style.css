@@ -5,14 +5,28 @@ header {background-image:url("topview.jpg") ;}
     position: relative;
 }
 .pic-text{
-    display: flexbox;
     position: absolute;
     top: -15px;
     height: 100px;
 }
 h1,h2,h3 {
     font-family:"Dancing Script",sans-serif;
-    font-weight: bold;
+    font-weight: 700;
+}
+h1 {
+    font-size: 4rem;
+    display:flex;
+    justify-content: center;
+}
+h2 {
+    font-size: 3rem;
+    display:flex;
+    justify-content: center;
+}
+h3 {
+    font-size: 2rem;
+    display:flex;
+    justify-content: center;
 }
 p {
     padding:1rem;
@@ -20,7 +34,7 @@ p {
     border-radius: 0.33rem;
     color: white;   
 }
-#more #more1 #more2 #more3  {display: none;}
+#more, #more1, #more2, #more3  {display: none;}
 button {
         background-color: transparent;
         border:none;
