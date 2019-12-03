@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+     <link rel="stylesheet" href="normalize.css">
+     <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="Usingen_style.css">
      <script src="Usingen.js"></script>
 
@@ -16,12 +18,13 @@
             The town core is about 300 m above sea level. The highest elevation in the main town of Usingen is the Hohe Berg ("High Mountain"), 414 m above sea level. 
         </p>
     </header>
-    <section>
+    <section class="History">
         <h2>History</h2>
+            <img src="hist.jpg" alt="old drawing of Usingen">
             <p>
                 Usingen (Latin Osinga), which in Frankish times likely existed as a fortified stopping place at an old crossroads, was first mentioned in the Codex Eberhardi, a manuscript from the Fulda monastery, and it is generally accepted that references made to the town go back to between 754 and 802. Archaeological proof of a settlement on the modern town's site back in Carolingian times has yet to be unearthed, although, not far from town, the remains of a Carolingian courtyard were once dug up. The possibility therefore exists that today's Usingen might not lie on the same spot as it once did, having relocated at some time in the past. More investigation will be needed before this is ascertained.
             </p>
-    </section>
+    </section> <!-- .History -->
     <section>
      <h2>Places</h2>
         <h3>Castle & Casltepark</h3>
@@ -41,8 +44,9 @@
         <h2>Culture</h2>
             <h3>Buchfinkenstadt</h3>
                 <p>
-                    Usingen is also known as the chaffinch city in the Buchfinkenland. The chaffinch song written in 1938 by Theo Geisel describes the concept of home, the Usinger Land in the Hintertaunus, the chaffinch country. The song conveys security, human closeness and warmth. The term "chaffinch fall", the "chaffinch fair" and the book prize "Usinger chaffinch" have brought the term back into the consciousness of the citizens. Since the jubilee year 2002 of the city of Usingen colorful chaffinches beautify the cityscape at various points in the city.
-                </p>
+                    Usingen is also known as the chaffinch city in the Buchfinkenland.<span id="dots">...</span><span id="more"> The chaffinch song written in 1938 by Theo Geisel describes the concept of home, the Usinger Land in the Hintertaunus, the chaffinch country. The song conveys security, human closeness and warmth. The term "chaffinch fall", the "chaffinch fair" and the book prize "Usinger chaffinch" have brought the term back into the consciousness of the citizens. Since the jubilee year 2002 of the city of Usingen colorful chaffinches beautify the cityscape at various points in the city.
+                </span><button onclick="myFunction()" id="myBtn">Read more...</button></p>
+                
             <h3>Events</h3>
                 <p>
                     Well known beyond the borders of Usingen is the annual Laurentiusmarkt with the Kreistierschau on the second weekend in September and the annual Usinger flea market at the end of June.
@@ -50,9 +54,9 @@
     </section>
     <footer>
         <p>
-                What are you waiting for?
-                <br>
-                <a href="https://www.expedia.de/">Book a flight today!</a>
+            What are you waiting for?
+            <br>
+            <a href="https://www.expedia.de/">Book a flight today!</a>
         </p>
     </footer>
   </body>
