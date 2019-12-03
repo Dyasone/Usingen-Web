@@ -1,10 +1,10 @@
 body {background-color: rgba(202, 147, 46, 0.89);}
 header {background-image:url("topview.jpg") ;}
-.History {
+.text-to-pic {
     display: flex; 
     position: relative;
 }
-.first-para{
+.pic-text{
     display: flexbox;
     position: absolute;
     top: -15px;
@@ -16,10 +16,15 @@ h1,h2,h3 {
 }
 p {
     padding:1rem;
-    background-color: rgba(31, 32, 32, 0.247);
+    background-color: rgba(31, 32, 32, 0.5);
     border-radius: 0.33rem;
-    
+    color: white;   
 }
-#more {display: none;}
-button {background-color: transparent;
-        border:none;}
+#more #more1 #more2 #more3  {display: none;}
+button {
+        background-color: transparent;
+        border:none;
+        color: white;
+}
+
+
