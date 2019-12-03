@@ -1,0 +1,25 @@
+body {background-color: rgba(202, 147, 46, 0.89);}
+header {background-image:url("topview.jpg") ;}
+.History {
+    display: flex; 
+    position: relative;
+}
+.first-para{
+    display: flexbox;
+    position: absolute;
+    top: -15px;
+    height: 100px;
+}
+h1,h2,h3 {
+    font-family:"Dancing Script",sans-serif;
+    font-weight: bold;
+}
+p {
+    padding:1rem;
+    background-color: rgba(31, 32, 32, 0.247);
+    border-radius: 0.33rem;
+    
+}
+#more {display: none;}
+button {background-color: transparent;
+        border:none;}
